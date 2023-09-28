@@ -4,6 +4,10 @@ A simple Unity WebGL project demonstrating how to perform object detection with 
 ## Demo Video
 
 
+https://github.com/cj-mills/unity-tfjs-inference-yolox-demo/assets/9126128/7a9b0470-d446-4bb8-a0b0-17a2f9298955
+
+
+
 
 
 ## In-Browser Demo
