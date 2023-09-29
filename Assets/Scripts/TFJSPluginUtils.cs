@@ -7,28 +7,6 @@ using UnityEngine.Networking;
 public static class TFJSPluginUtils// : MonoBehaviour
 {
 
-    ///// <summary>
-    ///// Get the names and paths of the available TensorFlow.js models
-    ///// </summary>
-    ///// <param name="json"></param>
-    //void GetTFJSModels(string json)
-    //{
-    //    ModelList modelList = JsonUtility.FromJson<ModelList>(json);
-    //    foreach (ModelData model in modelList.models)
-    //    {
-    //        //Debug.Log($"{model.name}: {model.path}");
-    //        modelNames.Add(model.name);
-    //        string path = $"{Application.streamingAssetsPath}{model.path}";
-    //        modelPaths.Add(path);
-    //    }
-    //    // Remove default dropdown options
-    //    modelDropdown.ClearOptions();
-    //    // Add TFJS model names to menu
-    //    modelDropdown.AddOptions(modelNames);
-    //    // Select the first option in the dropdown
-    //    modelDropdown.SetValueWithoutNotify(0);
-    //}
-
     /// <summary>
     /// Download the JSON file with the available TFJS model information
     /// </summary>
@@ -62,13 +40,4 @@ public static class TFJSPluginUtils// : MonoBehaviour
             }
         }
     }
-
-    //void Start() // Just an example usage, you can use it differently
-    //{
-    //    StartCoroutine(GetRequest("yourURLhere", (resultText) =>
-    //    {
-    //        // Do something with resultText
-    //        Debug.Log("Received Text: " + resultText);
-    //    }));
-    //}
 }
