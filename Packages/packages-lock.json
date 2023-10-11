@@ -7,7 +7,7 @@
       "dependencies": {
         "com.unity.textmeshpro": "3.0.6"
       },
-      "hash": "19117a768a73f41a5c8102163f93f28e1ffa2800"
+      "hash": "439b7d86b068eabbae2a8de3d535f44593c789db"
     },
     "com.cj-mills.cv-image-gallery": {
       "version": "https://github.com/cj-mills/unity-cv-image-gallery.git",
