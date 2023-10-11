@@ -166,7 +166,7 @@ public class InferenceController : MonoBehaviour
         // Apply Non-Maximum Suppression (NMS) to the proposals
         List<int> proposalIndices = BBox2DUtility.NMSSortedBoxes(proposals, nmsThreshold);
         // Create an array of BBox2DInfo objects containing the filtered bounding boxes, class labels, and colors
-        bboxInfoArray = YOLOXUtility.GetBBox2DInfos(proposals, proposalIndices, colormapList);
+        bboxInfoArray = BBox2DUtility.GetBBox2DInfos(proposals, proposalIndices, colormapList);
 
         // Update bounding boxes and user interface
         UpdateBoundingBoxes(inputDims);
